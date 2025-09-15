@@ -32,6 +32,7 @@
             txtUserName = new TextBox();
             txtPassword = new TextBox();
             lbPassword = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // lbUserName
@@ -66,11 +67,20 @@
             lbPassword.TabIndex = 2;
             lbPassword.Text = "UserName";
             // 
+            // button1
+            // 
+            button1.Location = new Point(268, 194);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 2;
+            button1.Text = "Login";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(txtPassword);
             Controls.Add(lbPassword);
             Controls.Add(txtUserName);
@@ -87,5 +97,6 @@
         private TextBox txtUserName;
         private TextBox txtPassword;
         private Label lbPassword;
+		private Button button1;
     }
 }
