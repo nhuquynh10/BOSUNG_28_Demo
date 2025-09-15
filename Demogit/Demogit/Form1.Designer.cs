@@ -65,7 +65,7 @@
             lbPassword.Name = "lbPassword";
             lbPassword.Size = new Size(70, 20);
             lbPassword.TabIndex = 2;
-            lbPassword.Text = "Mật khẩu";
+            lbPassword.Text = "UserName";
             // 
             // button1
             // 
@@ -74,6 +74,7 @@
             button1.Size = new Size(94, 29);
             button1.TabIndex = 2;
             button1.Text = "Đăng nhập";
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
