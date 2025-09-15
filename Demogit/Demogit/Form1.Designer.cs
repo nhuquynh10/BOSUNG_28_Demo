@@ -40,9 +40,9 @@
             lbUserName.AutoSize = true;
             lbUserName.Location = new Point(149, 69);
             lbUserName.Name = "lbUserName";
-            lbUserName.Size = new Size(78, 20);
+            lbUserName.Size = new Size(107, 20);
             lbUserName.TabIndex = 0;
-            lbUserName.Text = "UserName";
+            lbUserName.Text = "Tên đăng nhập";
             // 
             // txtUserName
             // 
@@ -63,9 +63,9 @@
             lbPassword.AutoSize = true;
             lbPassword.Location = new Point(149, 141);
             lbPassword.Name = "lbPassword";
-            lbPassword.Size = new Size(78, 20);
+            lbPassword.Size = new Size(70, 20);
             lbPassword.TabIndex = 2;
-            lbPassword.Text = "UserName";
+            lbPassword.Text = "Mật khẩu";
             // 
             // button1
             // 
@@ -73,7 +73,7 @@
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 2;
-            button1.Text = "Login";
+            button1.Text = "Đăng nhập";
             // 
             // Form1
             // 
